@@ -1,0 +1,222 @@
+.gray-column
+{
+    background-color: #ccc;
+    font-weight: bold;
+    color: #000;
+}
+.red-column
+{
+    background-color: #f00;
+    font-weight: bold;
+    color: #fff;
+}
+.blue-column
+{
+    background-color: #00f;
+    font-weight: bold;
+    color: #fff;
+}
+.green-column
+{
+    background-color: #0f0;
+    font-weight: bold;
+    color: #000;
+}
+.line-gold-column
+{
+    background-color: #FFD700;
+    font-weight: bold;
+    color: #000;
+    line-height: 200%;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.line-palegreen-column
+{
+    background-color: #98FB98;
+    font-weight: bold;
+    color: #000;
+    line-height: 200%;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.line-violet-column
+{
+    background-color: #EE82EE;
+    font-weight: bold;
+    color: #000;
+    line-height: 200%;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.line-red-column
+{
+    background-color: #f99;
+    font-weight: bold;
+    color: #000;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.line-green-column
+{
+    background-color: #0f0;
+    font-weight: bold;
+    color: #000;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.line-blue-column
+{
+    background-color: #99f;
+    font-weight: bold;
+    color: #000;
+    border-right: solid #000;
+    border-right-width: 1px;
+}
+.light-red-column
+{
+    background-color: #f99;
+    font-weight: bold;
+    color: #000;
+}
+.light-red-column:hover
+{
+    background-color: #f00;
+    font-weight: bold;
+    color: #000;
+}
+.light-green-column
+{
+    background-color: rgb(200,250,80);
+    font-weight: bold;
+    color: #000;
+}
+.light-green-column:hover
+{
+    background-color: rgb(148,174,10);
+    font-weight: bold;
+    color: #000;
+}
+.light-blue-column
+{
+    background-color: rgb(200,80,250);
+    font-weight: bold;
+    color: #000;
+}
+.light-blue-column:hover
+{
+    background-color: rgb(150,30,200);
+    font-weight: bold;
+    color: #000;
+}
+.light-yellow-column
+{
+    background-color: #ff9;
+    font-weight: bold;
+    color: #000;
+}
+.light-yellow-column:hover
+{
+    background-color: #ee0;
+    font-weight: bold;
+    color: #000;
+}
+.light-orange-column
+{
+    background-color: rgb(255,165,0);
+    font-weight: bold;
+    color: #000;
+}
+.light-orange-column:hover
+{
+    background-color: rgb(255,140,0);
+    font-weight: bold;
+    color: #000;
+}
+.light-gray-column
+{
+    background-color: rgb(255,165,255);
+    font-weight: bold;
+    color: #000;
+}
+.light-gray-column:hover
+{
+    background-color: rgb(200,100,200);
+    font-weight: bold;
+    color: #000;
+}
+.Disappointed-row .x-grid-cell { 
+    background-color: #f00;
+    font-weight: bold;
+    color: #fff;
+}
+.Regular-row .x-grid-cell { 
+/*     background-color: #0f0;
+    font-weight: bold;
+    color: #000; */
+}
+.Hold-row .x-grid-cell { 
+    background-color: #ff0;
+    font-weight: bold;
+    color: #000;
+}
+.Transferred-row .x-grid-cell { 
+    background-color: #ddd;
+    font-weight: bold;
+    color: #000;
+}
+.gray-row .x-grid-cell { 
+    background-color: #ddd;
+    font-weight: bold;
+    color: #000;
+}
+.black-row .x-grid-cell { 
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+}
+.black-row .x-grid-cell { 
+    background-color: #000;
+    font-weight: bold;
+    color: #fff;
+}
+.red-row .x-grid-cell { 
+    background-color: #f00;
+    font-weight: bold;
+    color: #fff;
+}
+.green-row .x-grid-cell { 
+    background-color: #0f0;
+    font-weight: bold;
+    color: #000;
+}
+.yellow-row .x-grid-cell { 
+    background-color: #ff0;
+    font-weight: bold;
+    color: #000;
+}
+.x-action-col-cell .check {
+    background-image: url("/icons/ok.png");
+}
+.x-action-col-cell .cancel {
+    background-image: url("/icons/cancel.png");
+}
+.row-parent .x-grid-cell {
+    background-color: #c1ddf1 !important;
+}
+.row-parent .x-grid-row-over .x-grid-cell {
+    background-color: #3da5f5 !important;
+}
+.row-parent .x-grid-row-selected .x-grid-cell {
+    background-color: #ff0 !important;
+}
+
+.row-child .x-grid-cell {
+    background-color: #e2eff8 !important;
+}
+.row-child .x-grid-row-over .x-grid-cell {
+    background-color: #85c4f5 !important;
+}
+.row-child .x-grid-row-selected .x-grid-cell {
+    background-color: #ff0 !important;
+}

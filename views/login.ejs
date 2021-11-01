@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%- title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/style/login.css">
+    <link rel="stylesheet" href="/public/style/font-awesome.css">
+    <link rel="stylesheet" href="/public/style/reset.min.css">
+    <script src="/public/js/prefixfree.min.js"></script>
+  </head>
+  <body>
+    <div class="login">
+      <h1><%- title %></h1>
+      <form class="form" method="post" action="/login">
+        <p class="field">
+          <input type="text" name="username" placeholder="Username" required/>
+          <i class="fa fa-user"></i>
+        </p>
+        <p class="field">
+          <input type="password" name="password" placeholder="Password" required/>
+          <i class="fa fa-lock"></i>
+        </p>
+        <p class="submit"><input type="submit" name="sent" value="Login"></p>
+      </form>
+      </div> <!--/ Login-->
+    </body>
+  </html>

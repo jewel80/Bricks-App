@@ -1,0 +1,80 @@
+html, body {
+    font-family: "Meiryo UI", "Malgun Gothic", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    background-color: #FF667A;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.79;
+    transition: opacity .15s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    margin: 30px auto;
+    text-shadow: 0 0 2.5px #fff;
+}
+
+.wrap {
+    display: table;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 0 0 2.5px #fff;
+}
+
+.center-head {
+    color: #fff;
+    font-size: 3.1em;
+}
+
+.center-content {
+    margin: 12px auto;
+    padding: 0 5px;
+    max-width: 1060px;
+    color: #fff;
+    font-size: 2.1em;
+}
+
+.text-size-23 {
+    font-size: 23px;
+}
+
+.text-size-28 {
+    font-size: 28px;
+}
+
+.click-able {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .center-head {
+        font-size: 2.1em;
+    }
+
+    .center-content {
+        font-size: 1.2em;
+    }
+}

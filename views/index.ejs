@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%- title %></title>
+    <link rel="stylesheet" href="/public/style/index.css">
+    <link rel="stylesheet" href="/extjs/build/classic/theme-neptune/resources/theme-neptune-all.css">
+    <script type="text/javascript" src="/extjs/build/ext-all.js"></script>
+    <script type="text/javascript" src="/extjs/build/classic/theme-neptune/theme-neptune.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript">
+        var socket = io();
+        var user = {};
+        var title = '<%- title %>';
+        user.username = '<%- loginUserName %>';
+        user.id = '<%- loginUserId %>';
+
+        Ext.Loader.setConfig({
+            enabled: true,
+            disableCaching: true
+        });
+        Ext.require([
+            'Ext.panel.Panel',
+            'Ext.window.MessageBox',
+            'Ext.chart.*'
+        ]);
+        Ext.onReady(function() {
+            Ext.create('Ext.container.Viewport', {
+                layout: 'border',
+                items: [navigation_panel, tab_panel, footer_panel]
+            });
+        })
+    </script>
+    <%-  extjs_app_scripts %>
+</head>
+</html>
+
+
